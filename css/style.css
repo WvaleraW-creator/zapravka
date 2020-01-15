@@ -1,0 +1,133 @@
+
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background: white;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+.pulse{
+    rotation: 45grad;
+    font-size: 45px;
+    color: red;
+    animation-name: pulse-1;
+    animation-duration: 2s;
+
+}
+
+.header{
+    position: relative;
+    background-image: url("../img/hed.jpg");
+    width: auto;
+    height: 500px;
+    overflow: hidden;
+}
+
+.text_action {
+    top: 150px;
+    left: 700px;
+    position: absolute;
+    font-family: sans-serif;
+    font-size:55px;
+    color: red;
+    text-align: center;
+    animation-name: text-1;
+    animation-duration: 2s;
+}
+.text_action2 {
+    top: 250px;
+    left:800px;
+    position: absolute;
+    font-family: sans-serif;
+    font-size:55px;
+    color: red;
+    text-align: center;
+    animation-name: text-1;
+    animation-duration: 1s;
+}
+
+
+.tel_tex {
+    position: absolute;
+    top: 380px;
+    left: 1100px;
+    font-family: sans-serif;
+    font-size: 100px;
+    text-align: center;
+    animation-name: text-2;
+   animation-duration: 3s;
+    color: yellow;
+    -webkit-text-stroke: 3px black;
+    -webkit-text-fill-color: yellow;
+}
+
+
+.container{
+
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(650px, 1fr));
+    grid-gap: 20px;
+    font-family: sans-serif;
+   text-align: left;
+    font-size: 20px ;
+    color: black;
+
+
+}
+
+.text_logo{
+
+    font-size: 20px;
+    font-family: Tahoma;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+.bot_info{
+    border: 1px solid black;
+    background-image: none;
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+    cursor: pointer;
+    margin: 0 auto;
+    text-align: center;
+    height: 30px;
+    border-radius: 0px;
+    animation-name: text-3;
+    animation-duration: 2s;
+}
+
+.fut_info{
+    height: 55px;
+    font-size: 15px;
+    font-family: sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: #5d5d5d;
+    color: white;
+}
+
+
+@keyframes text-1 {
+    0%{transform: translateX(-3000px);}
+    50%{transform: translateX(200px);}
+    100%{transform: translateX(0px);}
+}
+
+@keyframes text-2 {
+    0% {transform: translatey(+100px);}
+    100% {transform: translatey(0px);}
+}
+
+
+
+@keyframes text-3 {
+    0%{transform: translatey(-100px);}
+    100%{transform: translatey(0px);}
+}
