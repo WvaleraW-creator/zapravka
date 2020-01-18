@@ -79,7 +79,8 @@ body {
 
 .container{
     display: grid;
-    grid-template-columns:repeat(auto-fill, minmax(650px, 1fr));
+    grid-template-columns:repeat(auto-fill, minmax(700px, 1fr ));
+    grid-template-rows: 1fr;
     grid-gap: 20px;
     font-family: sans-serif;
    text-align: left;
@@ -97,9 +98,8 @@ body {
 }
 
 .content_menu{
-    position: absolute;
-    left: 0px;
-    top: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .menu{
     left: 0px;
@@ -121,8 +121,8 @@ body {
 
 }
 .content_back {
-    position: relative;
-    width: 1900px;
+    position: absolute;
+    width: 100%;
     height: 48px;
     top: 0px;
     left: 0px;
