@@ -12,22 +12,34 @@ body {
     line-height: 1.5;
 }
 
-.pulse{
-    rotation: 45grad;
-    font-size: 45px;
-    color: red;
-    animation-name: pulse-1;
-    animation-duration: 2s;
 
-}
 
 .header{
     position: relative;
-    background-image: url("../img/hed.jpg");
-    width: auto;
+    background-image: url("../img/hed2.jpg");
+    width: 1900px;
     height: 500px;
     overflow: hidden;
 }
+
+.girl_logo{
+    position: absolute;
+    width: 648px;
+    height: 500px;
+    left: 1200px;
+    top: 0px;
+}
+
+.logo_menu{
+    color: white;
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 70px;
+    top: 60px;
+    left: 15px;
+}
+
+
 
 .text_action {
     top: 150px;
@@ -37,9 +49,9 @@ body {
     font-size:55px;
     color: red;
     text-align: center;
-    animation-name: text-1;
-    animation-duration: 2s;
 }
+
+
 .text_action2 {
     top: 250px;
     left:800px;
@@ -48,8 +60,7 @@ body {
     font-size:55px;
     color: red;
     text-align: center;
-    animation-name: text-1;
-    animation-duration: 1s;
+
 }
 
 
@@ -60,8 +71,6 @@ body {
     font-family: sans-serif;
     font-size: 100px;
     text-align: center;
-    animation-name: text-2;
-   animation-duration: 3s;
     color: yellow;
     -webkit-text-stroke: 3px black;
     -webkit-text-fill-color: yellow;
@@ -69,7 +78,6 @@ body {
 
 
 .container{
-
     display: grid;
     grid-template-columns:repeat(auto-fill, minmax(650px, 1fr));
     grid-gap: 20px;
@@ -77,8 +85,6 @@ body {
    text-align: left;
     font-size: 20px ;
     color: black;
-
-
 }
 
 .text_logo{
@@ -90,17 +96,24 @@ body {
     text-align: center;
 }
 
+.content_menu{
+    position: absolute;
+    left: 500px;
+}
 .bot_info{
-    border: 1px solid black;
-    background-image: none;
-    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
-    cursor: pointer;
-    margin: 0 auto;
     text-align: center;
-    height: 30px;
+    padding: 5px;
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: bold;
+    size: 50px;
+    color: black;
+    background-image: none;
+    cursor: pointer;
+    margin: 5px;
+    height: 50px;
     border-radius: 0px;
-    animation-name: text-3;
-    animation-duration: 2s;
+
 }
 
 .fut_info{
@@ -114,20 +127,24 @@ body {
 }
 
 
-@keyframes text-1 {
-    0%{transform: translateX(-3000px);}
-    50%{transform: translateX(200px);}
-    100%{transform: translateX(0px);}
+
+
+
+
+@media (max-width: 575px) { ... }
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+.container{
+    justify-content: center;
+}
 }
 
-@keyframes text-2 {
-    0% {transform: translatey(+100px);}
-    100% {transform: translatey(0px);}
-}
+/* md (>=768 и <=991) */
+@media (min-width: 768px) and (max-width: 991px) { ... }
 
+/* lg (>=992 и <=1199) */
+@media (min-width: 992px) and (max-width: 1199px) { ... }
 
-
-@keyframes text-3 {
-    0%{transform: translatey(-100px);}
-    100%{transform: translatey(0px);}
-}
+/* xl (>=1200) */
+@media (min-width: 1200px) { ... }
