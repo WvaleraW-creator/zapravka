@@ -1,0 +1,32 @@
+
+
+@media (max-width: 1639px)  {
+    .content_menu{
+        width: 1639px;
+    }
+    .girl_logo{
+        left: 1080px;
+    }
+    .tel_tex{
+        left: 870px;
+    }
+}
+
+@media (max-width: 1600px)  {
+    .content_menu{
+        width: 1600px;
+    }
+.girl_logo{
+    left: 1080px;
+}
+.tel_tex{
+    left: 870px;
+}
+}
+
+
+
+@media (max-width: 992px)  {
+
+}
+

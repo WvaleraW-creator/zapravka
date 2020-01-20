@@ -1,23 +1,15 @@
 
 
 
-body {
+body{
 
-    margin: 0;
-    padding: 0;
-    background: white;
-    min-height: 100vh;
-    scroll-behavior: smooth;
-    text-rendering: optimizeSpeed;
-    line-height: 1.5;
 }
-
 
 
 .header{
     position: relative;
     background-image: url("../img/hed2.jpg");
-    width: 1900px;
+    width: 100%;
     height: 500px;
     overflow: hidden;
 }
@@ -77,19 +69,9 @@ body {
 }
 
 
-.container{
-    display: grid;
-    grid-template-columns:repeat(auto-fill, minmax(700px, 1fr ));
-    grid-template-rows: 1fr;
-    grid-gap: 20px;
-    font-family: sans-serif;
-   text-align: left;
-    font-size: 20px ;
-    color: black;
-}
+
 
 .text_logo{
-
     font-size: 20px;
     font-family: Tahoma;
     background: black;
@@ -97,11 +79,28 @@ body {
     text-align: center;
 }
 
+
+
+
+.content_back {
+    position: absolute;
+    width: 1900px;
+    height: 48px;
+    top: 0px;
+    left: 0px;
+    background: grey;
+    opacity: 0.7
+}
+
+
+
 .content_menu{
+
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4,1fr);
 }
 .menu{
+    border-radius: 25px;
     left: 0px;
     top: 0px;
     position: relative;
@@ -111,7 +110,6 @@ body {
     font-family: sans-serif;
     font-weight: bold;
     font-size: 25px;
-    border-radius:15px;
     margin-bottom: 20px;
     cursor: pointer;
     color: white;
@@ -120,14 +118,51 @@ body {
 
 
 }
-.content_back {
-    position: absolute;
-    width: 100%;
-    height: 48px;
-    top: 0px;
-    left: 0px;
-    background: grey;
-    opacity: 0.7
+
+
+.menu:hover{
+    background: black;
+}
+
+.container{
+    margin: 0px 0px 0px 20px;
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(900px, 1fr ) );
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 20px ;
+    color: black;
+    float: right;
+
+}
+
+
+}
+.google_map{
+    width: 1920px;
+}
+
+.label_home{
+   margin: 50px 50px 10px 50px;
+    position: relative;
+    text-align: center;
+    border-radius: 15px;
+    padding: 7px;
+    width: 100px;
+  left: 50px;
+    font-size: 25px;
+}
+
+
+
+
+
+.tan_logo,.tablet_logo,.key_logo {
+position: relative;
+    justify-content: center;
+    margin:30px 10px 30px 10px;
+    width: 948px;
+    height: 549px;
 }
 
 
@@ -139,38 +174,3 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     background: #5d5d5d;
     color: white;
-}
-.google_map{
-    width: 1200px;
-}
-
-.label_home{
-    position: relative;
-    text-align: center;
-    border-radius: 15px;
-    padding: 7px;
-    width: 100px;
-  left: 50px;
-    font-size: 25px;
-}
-
-.logo_
-
-
-
-@media (max-width: 575px) { ... }
-
-
-@media (min-width: 576px) and (max-width: 767px) {
-
-}
-}
-
-/* md (>=768 и <=991) */
-@media (min-width: 768px) and (max-width: 991px) { ... }
-
-/* lg (>=992 и <=1199) */
-@media (min-width: 992px) and (max-width: 1199px) { ... }
-
-/* xl (>=1200) */
-@media (min-width: 1200px) { ... }
