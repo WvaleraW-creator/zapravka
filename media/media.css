@@ -1,11 +1,11 @@
 
-
+/*
 @media (max-width: 1639px)  {
     .content_menu{
-        width: 1639px;
+        width:100%;
     }
     .girl_logo{
-        left: 1080px;
+        left: 80%;
     }
     .tel_tex{
         left: 870px;
@@ -14,10 +14,10 @@
 
 @media (max-width: 1600px)  {
     .content_menu{
-        width: 1600px;
+        width: 100%;
     }
 .girl_logo{
-    left: 1080px;
+    left: 80%;
 }
 .tel_tex{
     left: 870px;
