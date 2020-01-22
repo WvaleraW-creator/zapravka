@@ -1,32 +1,136 @@
 
-/*
-@media (max-width: 1639px)  {
-    .content_menu{
-        width:100%;
+
+@media (max-width: 1440px) {
+    .text_action2 {
+        top: 300px;
+        left: 35%;
     }
-    .girl_logo{
+    .text_action {
+        top: 210px;
+        left: 25%;
+    }
+
+    .tel_tex {
+        left: 35%;
+    }
+}
+
+@media (max-width: 1320px){
+    .menu{
+        font-size: 20px;
+    }
+    .tel_tex {
+
+        font-size: 95px;
+    }
+
+
+
+}
+
+@media (max-width: 992px){
+    .menu{
+        font-size: 20px;
+    }
+    .tel_tex {
+
+        font-size: 70px;
+        width: 50%;
+    }
+
+    .text_action2 {
+        top: 220px;
+        left: 30%;
+    }
+    .text_action {
+        top: 150px;
+        left: 20%;
+    }
+
+    .logo_menu{
+        color: white;
+        position: absolute;
+        font-family: sans-serif;
+        font-size: 40px;
+        top: 60px;
+        left: 15px;
+    }
+    .container{
+        margin: 0px 0px 0px 20px;
+        display: grid;
+        grid-template-columns:repeat(auto-fill, minmax(992px, 1fr ) );
+        font-family: sans-serif;
+        text-align: left;
+        font-size: 20px ;
+        color: black;
+        float: right;
+
+    }
+
+
+}
+
+
+@media (max-width: 768px){
+    .container{
+        margin: 0px 0px 0px 20px;
+        display: grid;
+        grid-template-columns:repeat(auto-fill, minmax(760px, 1fr ) );
+        font-family: sans-serif;
+        text-align: left;
+        font-size: 20px ;
+        color: black;
+        float: right;
+
+    }
+
+    .logo_menu{
+        color: white;
+        position: absolute;
+        font-family: sans-serif;
+        font-size: 30px;
+        top: 60px;
+        left: 15px;
+    }
+
+    .text_action2 {
+        top: 210px;
+        left: 15%;
+    }
+    .text_action {
+        top: 140px;
+        left: 0%;
+    }
+
+    .tel_tex {
+        top:10%;
+        left: 30%;
+        font-size: 50px;
+        width: 50%;
+    }
+
+    .label_home{
+        margin: 50px 50px 10px 50px;
+        text-align: center;
+        border-radius: 15px;
+        padding: 7px;
+        width:100px;
+        font-size: 25px;
+        position: relative;
         left: 80%;
     }
-    .tel_tex{
-        left: 870px;
-    }
-}
 
-@media (max-width: 1600px)  {
-    .content_menu{
-        width: 100%;
-    }
-.girl_logo{
-    left: 80%;
-}
-.tel_tex{
-    left: 870px;
-}
+
 }
 
 
 
-@media (max-width: 992px)  {
 
-}
+
+
+
+
+
+
+
 
