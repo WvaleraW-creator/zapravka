@@ -29,6 +29,9 @@
 }
 
 @media (max-width: 989px){
+
+
+
     .menu{
         font-size: 20px;
     }
@@ -55,34 +58,24 @@
         top: 60px;
         left: 15px;
     }
+
+
     .container{
-        margin: 0px 0px 0px 20px;
+
         display: grid;
-        grid-template-columns:repeat(auto-fill, minmax(760px, 1fr ) );
-        font-family: sans-serif;
-        text-align: left;
-        font-size: 20px ;
-        color: black;
-        float: right;
+        grid-template-columns: 1fr  ;
+
 
     }
-
+img{
+    height: 100px;
+}
 
 }
 
 
 @media (max-width: 768px){
-    .container{
-        margin: 0px 0px 0px 20px;
-        display: grid;
-        grid-template-columns:repeat(auto-fill, minmax(480px, 1fr ) );
-        font-family: sans-serif;
-        text-align: left;
-        font-size: 20px ;
-        color: black;
-        float: right;
 
-    }
 
     .logo_menu{
         color: white;
@@ -112,7 +105,7 @@
     .label_home{
         font-size: 20px;
         position: relative;
-        left: 70%;
+        left: 60%;
     }
 
 
@@ -121,14 +114,10 @@
 
 
 @media (max-width: 690px){
-
-
-    .container {
-        margin: 0px 0px 0px 20px;
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(348 px, 1fr));
+    .tan_logo,.tablet_logo,.key_logo
+    {
+        height: 350px;
     }
-
 
     .tel_tex {
         top:10%;
@@ -154,16 +143,14 @@
 }
 
 @media (max-width: 500px){
-.content_menu{display: none;}
+    .content_menu{display: none;}
 
-
-
-
-    .container {
-        margin: 0px 0px 0px 20px;
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(260 px, 1fr));
+    .tan_logo,.tablet_logo,.key_logo
+    {
+        height: 250px;
     }
+
+
 
 
     .tel_tex {
@@ -190,10 +177,51 @@
     .btn_menu{
         display: block;
     }
+    .fut_info {
+        margin: 0px 15px 10px 20px;
+        height: 90px;
+        font-size: 15px;
+        font-family: sans-serif;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background: #5d5d5d;
+        color: white;
+    }
+
+
 }
 
 
+@media (max-width: 375px){
 
+
+
+    .label_home{
+        font-size: 20px;
+        position: relative;
+        left: 50%;
+    }
+
+    .tel_tex {
+        top:43%;
+        left: 0%;
+        font-size: 45px;
+
+    }
+
+    .text_action {
+        font-size:29px ;
+        top: 128px;
+        left: 1%;
+    }
+
+    .fut_info {
+
+        font-size: 12px;
+
+    }
+
+}
 
 
 
